@@ -1,0 +1,239 @@
+/*/////////////NAV BAR////////////*/
+header{
+    width: 100%;
+    padding: 10px;
+    color: cornsilk;
+    text-align: center;
+    
+}
+.nav-menu{
+    left: 0;
+    bottom: 0;
+    background-color: transparent;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10px;
+    padding: 10px 50px;
+    margin-top: 50px;
+    width: 100%;
+    opacity: 0.50;
+
+}
+.extra{
+    width:50%;
+}
+
+.nav-menu :hover{
+    opacity: 1;
+    
+}
+nav ul li:hover{
+    /*background: grey;*/
+    opacity: 1;
+    background-color: rgb(51, 151, 151);
+    border-radius: 35px;
+}
+
+nav{
+    background: transparent;
+}
+
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 300ms;
+}
+
+ul li a{
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+        /*background: grey;*/
+        opacity: 1;
+}
+
+
+/*/////////////BANNER////////////*/
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+  }
+  
+  .banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .banner p {
+    font-size: 20px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+
+
+  #banner{
+    text-align: center;
+    /*background-image: url("images/auto2.jpg");*/
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+   
+    color: white;
+    text-shadow: 1px 1px 5px black;
+  }
+  #banner h1 {
+    margin: 0 auto;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 50px;
+    /*font-weight: bold;*/
+  
+  }
+  #banner p {
+    color: white;
+    opacity: 0.8;
+    font-size: 30px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-weight: lighter;
+  }
+  
+  /*/////////////TITLE////////////*/
+
+  
+
+
+
+
+
+  /*/////////////BUTTONS////////////*/
+  .btn-flat {
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    background: #1EDD88;
+    transition: background 0.3s ease;
+  }
+  
+  .btn-flat:hover {
+    background: #1BCB7F;
+    color: white;
+  }
+
+  /*/////////////            ////////////*/
+
+
+
+
+
+
+  /*/////////////FOOTER////////////*/
+
+
+  .footer {
+    /*position: fixed;*/
+    left: 0;
+    bottom: 0;
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    margin-top: 50px;
+    width: 100%;
+    
+  }
+  .footer-links {
+    display: flex;
+    align-items: center;
+  }
+  .footer-links a {
+    color: black;
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+  }
+  .footer-links a:hover {
+    opacity: 1;
+  }
+  .footer .fa-heart {
+    color: #D23333;
+  }
+  .footer-contactos {
+   padding: 20px 10px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  }
+  
+  .footer-copyright {
+  color: rgba(0,0,0,0.8);
+  display: flex;
+  align-content: center;
+  font-size: 14px;
+  padding: 0px 10px;
+    
+  }
+  
+  .Datafiscal {
+  /*margin: auto;*/
+  padding: 0px 10px;
+    
+  }
+
+
+
+
+ /*/////////////  MEDIA QUERIES FOR RESPONSIVE  ////////////*/
+  
+  @media  (max-width: 767px) {  
+    .footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 150px;
+      left: 0;
+      bottom: 0;
+      }}
+    
+    @media (max-width: 756px) {  
+    .title a {
+    font-size: 3vw;
+      }}
+    
+    @media (max-width: 756px) {  
+    .title h1{
+    font-size: 8vw;
+      }}
+    @media (max-width: 756px) {  
+    .title p {
+    font-size: 6vw;
+      }}
+    
+      .navbar {
+      justify-content: space-between;
+      
+    }
+    
+
+
+
+

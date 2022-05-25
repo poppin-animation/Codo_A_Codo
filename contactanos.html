@@ -58,17 +58,7 @@
 </head>
 <body>
 
-	<header>
-		<!-- <h1> Rosa Flor's Web  </h1> -->
-		<nav>
-		  <ul>  
-			  <li><a href="Index.html">Inicio</a></li>
-			  <li><a href="micv.html">CV</a></li>
-			  <li><a href="miblog.html">Blog</a></li>
-		  </ul>
-	  </nav>
-	</header>
-  
+
 
 <!--NAVBAR -->
 <div class="banner">
@@ -83,7 +73,7 @@
 		    <span class="navbar-toggler-icon"></span>
 		  	</button>
 			
-	<div class="nav-menu">
+	<div class="navbar-menu">
 			  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 				    <ul class="navbar-nav mr-auto">
 					      <li class="nav-item active">
@@ -108,40 +98,104 @@
 
 </div>
 <!--</div>-->
+
 <!--BANNER -->
-
-
-  	
-
-  	<div class="container">
-  	<div class="title">
-      	<h1>ACADEMIA DE CONDUCTORES</h1>
-	  	<p>Aprendé a manejar con los mejores instructores </p>
-		<a class="btn btn-flat" href="cursos.html" >¡Quiero Aprender!</a>
-		</div>
-	</div>
- </div>
+<div class="container">
+    <div class="title">
+        <h1>ACADEMIA DE CONDUCTORES</h1>
+        <p>Aprendé a manejar con los mejores instructores </p>
+      <a class="btn btn-flat" href="cursos.html" >¡Ver los Cursos!</a>
+      </div>
+  </div>
+</div>
 </div>
 
 
 
 
+<!--FORMULARIO DE CONTACTO-->
+<div class="container">
+	<div class="row d-flex justify-content-center border-1">
+		<div class="col-12 col-sm-8">
+			<form>
+			  <div class="form-row">
+			    <div class="form-group col-md-6">
+			      <label for="email">Email</label>
+			      <input type="email" class="form-control" id="email"  placeholder="correo@dominio.com">
+			     <small id="emailHelp" class="form-text text-muted text-danger">Ingresar Correo Electrónico</small>
+			    </div>
+			    <div class="form-group col-md-6">
+			      <label for="nombre">Nombre Apellido</label>
+			      <input type="text" class="form-control" id="nombre"  placeholder="Guido Perez">
+			      <small id="nombre"></small>
+			      <small id="nombreHelp" class="form-text text-muted text-danger">Ingresar Nombre y Apellido</small>
+			    </div>
+			  </div>
+			  <div class="form-group">
+			    <label for="curso">Quiero hacer el</label>
+			    <input type="text" class="form-control" id="curso" placeholder="Curso Completo">
+			     <small id="CursoHelp" class="form-text text-muted text-danger">Ingresar Curso en el que está interesado</small>
+			  </div>
+			  <div class="form-row">
+			    <div class="form-group col-md-6">
+			      <label for="Localidad">Localidad</label>
+			      <select id="LocalidadHelp" class="form-control">
+			        <option selected>Elige..</option>
+			        <option>20 de Junio</option>
+			        <option>Aldo Bonzi</option>
+			        <option>Ciudad Evita</option>
+			        <option>Gonzalez Catán</option>
+			        <option>Gregorio de Laferrere</option>
+			        <option>Isidro Casanova</option>
+			        <option>La Tablada</option>
+			        <option>Lomas del Mirador</option>
+			        <option>Rafael Castillo</option>
+			        <option>Ramos Mejía</option>	        
+			        <option>San Justo</option>
+			        <option>Tapiales</option>
+			        <option>Villa Celina</option>
+			        <option>Villa Luzuriaga</option>
+			        <option>Villa Madera</option>
+			        <option>Virrey del Pino</option>
+			        </select>
+			    </div> 
+			    <div class="form-group col-md-4">
+			      <label for="Provincia">Provincia</label>
+			      <select id="ProvinciaHelp" class="form-control">
+			        <option selected>Elige...</option>
+			        <option>Ciudad Autónoma de Buenos Aires</option>
+			        <option>Provincia de Buenos Aires</option>
+			        <option>Otra..</option>
+			         </select>
+			    </div>
+			    <div class="form-group col-md-2">
+			      <label for="CodigoPostal">C.P.</label>
+			      <input type="text" class="form-control" id="CodigoPostal" placeholder="1766">
+			      <small id="CodigoPostalHelp" class="form-text text-muted text-danger">Ingresar Codigo Postal</small>
+			    </div>
+                <div class="form-group col-md-2">
+                    <label for="teléfono">Teléfono</label>
+                    <input type="text" class="form-control" id="telefono" placeholder="011...">
+                    <small id="TelefonoHelp" class="form-text text-muted text-danger">Ingresar Teléfono de Contacto</small>
+                  </div>
+			  </div>
+			  <div class="form-group">
+			    <div class="form-check">
+			      <input class="form-check-input" type="checkbox" id="gridCheck">
+			      <label class="form-check-label" for="gridCheck">
+			        Quiero que me llamen por teléfono
+			      </label>
+			    </div>
+			  </div>
+			  <button type="submit" class="btn btn-primary">Enviar</button>
+			</form>
 
-	<div class="container">
-	<div class="cards">
-  	<div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/auto4.jpg)"><a href="cursos.html" target="_blank">
-    Inscribite al Curso</a>
-  	</div>
-  
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/señales.png)"><a href="http://200.5.235.253/index.php/examen" target="_blank">
-    Prepará el Examen</a>
-  </div>
+		</div>
+
+
+	</div>
 	
 
-  <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(images/licencia.jpg)"><a href="http://200.41.235.115:3017/default.aspx" target="_blank">
-    Solicitá el Turno</a>
-  </div>
-</div>
 </div>
 
 
@@ -151,6 +205,15 @@
 
 
 
+
+
+
+
+
+
+
+
+<!--FOOTER -->
 <div class="container-footer" >
 	<div class="footer">
 	  <div class="footer-links">
